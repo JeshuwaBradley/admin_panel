@@ -1,0 +1,62 @@
+.widgetSmall {
+  flex: 1;
+  box-shadow: 2px 0px 10px 1px rgba(209, 198, 198, 0.75);
+  -webkit-box-shadow: 2px 0px 10px 1px rgba(209, 198, 198, 0.75);
+  -moz-box-shadow: 2px 0px 10px 1px rgba(209, 198, 198, 0.75);
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.userImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  font-weight: 600;
+}
+
+.userJob {
+  font-weight: 300;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
+
+.buttonIcon {
+  font-size: 22px;
+  margin-right: 5px;
+}
