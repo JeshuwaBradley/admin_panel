@@ -1,0 +1,165 @@
+.user {
+	flex: 4;
+	padding: 20px;
+}
+
+.userTitleContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.userTitle {
+}
+
+.userAddButton {
+	width: 80px;
+	border: none;
+	padding: 5px;
+	background-color: teal;
+	cursor: pointer;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+}
+
+.userContainer {
+	display: flex;
+	margin-top: 20px;
+}
+
+.userShow {
+	flex: 1;
+	padding: 20px;
+	box-shadow: 2px 0px 10px 1px rgba(209, 198, 198, 0.75);
+	-webkit-box-shadow: 2px 0px 10px 1px rgba(209, 198, 198, 0.75);
+	-moz-box-shadow: 2px 0px 10px 1px rgba(209, 198, 198, 0.75);
+}
+
+.userShowTop {
+	display: flex;
+	align-items: center;
+}
+
+.userShowImage {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.userShowJobTitle {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.userShowUserName {
+	font-weight: 600;
+}
+
+.userShowUserTitle {
+	font-weight: 300;
+}
+
+.userShowBottom {
+	margin-top: 20px;
+}
+
+.userShowTitle {
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(175, 170, 170);
+}
+
+.userShowInfo {
+	display: flex;
+	color: #444;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.userShowIcon {
+	font-size: 16px;
+}
+
+.userShowInfoTitle {
+	margin-left: 10px;
+}
+
+.userUpdate {
+	flex: 2;
+	padding: 20px;
+	box-shadow: 2px 0px 10px 1px rgba(209, 198, 198, 0.75);
+	-webkit-box-shadow: 2px 0px 10px 1px rgba(209, 198, 198, 0.75);
+	-moz-box-shadow: 2px 0px 10px 1px rgba(209, 198, 198, 0.75);
+	margin-left: 20px;
+}
+
+.userUpdateLeft {
+}
+
+.userUpdateTitle {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.userUpdateForm {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.userUpdateLeft {
+}
+
+.userUpdateItem {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.userUpdateItem > label {
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.userUpdateInput {
+	border: none;
+	width: 250px;
+	border-bottom: 1px solid gray;
+	height: 30px;
+}
+
+.userUpdateImage {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.userUpdateRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.userUpdateUpload {
+	display: flex;
+	align-items: center;
+}
+
+.userUpdateIcon {
+	cursor: pointer;
+}
+
+.uerUpdateButton {
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+	background-color: darkblue;
+	color: white;
+	font-weight: bold;
+}
